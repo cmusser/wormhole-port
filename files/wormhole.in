@@ -1,0 +1,22 @@
+#!/bin/sh
+#
+
+# PROVIDE: wormhole
+# REQUIRE: DAEMON
+# KEYWORD: shutdown
+
+. /etc/rc.subr
+
+name=wormhole
+rcvar=wormhole_enable
+
+load_rc_config $name
+
+: ${wormhole_enable="NO"}
+: ${wormhole_pidfile="/var/run/${name}.pid"}
+
+command="/usr/local/bin/${name}"
+command_args="-k /etc/wormhole-key.yaml"
+pidfile="${wormhole_pidfile}"
+
+run_rc_command $*

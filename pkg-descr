@@ -1,0 +1,5 @@
+wormhole uses libsodium's secret stream encryption to provide
+secure TCP transport for applications that do not provide security
+on their own.
+
+WWW: https://github.com/cmusser/wormhole
