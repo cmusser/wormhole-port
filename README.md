@@ -68,5 +68,5 @@ This is the BSD Ports system configuration project for wormhole.
    ```
 8. Install the built package:
    ```
-   sudo pkg install /usr/obj/dports/src/wormhole-port/pkg/wormhole-0.2.1.txz
+   sudo pkg install /usr/obj/dports/src/wormhole-port/pkg/wormhole-0.2.3.txz
    ```

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	wormhole
-DISTVERSION=	0.2.1
+DISTVERSION=	0.2.3
 CATEGORIES=	security
 
 MAINTAINER=	cmusser@sonic.net
@@ -87,8 +87,8 @@ CARGO_CRATES=	adler32-1.0.4 \
 		textwrap-0.11.0 \
 		thread_local-0.3.6 \
 		time-0.1.42 \
-		tokio-0.2.4 \
-		tokio-macros-0.2.0 \
+		tokio-0.2.9 \
+		tokio-macros-0.2.3 \
 		tracing-0.1.9 \
 		tracing-attributes-0.1.5 \
 		tracing-core-0.1.7 \
