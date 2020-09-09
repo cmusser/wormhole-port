@@ -52,7 +52,7 @@ This is the BSD Ports system configuration project for wormhole.
    
 6. Regenerate the `distinfo` file:
    ```
-	sudo make makesum`
+   sudo make makesum
    ```
 
 7. Go through package building steps (these are taken from the FreeBSD

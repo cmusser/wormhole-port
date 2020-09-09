@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	wormhole
-DISTVERSION=	0.2.3
+DISTVERSION=	0.2.4
 CATEGORIES=	security
 
 MAINTAINER=	cmusser@sonic.net
