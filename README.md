@@ -49,7 +49,7 @@ This is the BSD Ports system configuration project for wormhole.
    ```
 
    Paste the result of this into the Makefile.
-   
+
 6. Regenerate the `distinfo` file:
    ```
    sudo make makesum
@@ -68,5 +68,5 @@ This is the BSD Ports system configuration project for wormhole.
    ```
 8. Install the built package:
    ```
-   sudo pkg install /usr/obj/dports/src/wormhole-port/pkg/wormhole-0.2.3.txz
+   sudo pkg install /usr/obj/dports/src/wormhole-port/pkg/wormhole-0.3.1.txz
    ```
